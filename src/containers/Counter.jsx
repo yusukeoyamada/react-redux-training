@@ -16,8 +16,6 @@ class CounterContainer extends React.Component {
 }
 
 function mapStateToProps(state){
-  console.log('mapStateToPropsのstate');
-  console.log(state);
   return state.counterReducer;
 }
 
